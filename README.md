@@ -18,3 +18,12 @@ symfony server:start
 
 Then browse the API at `http://localhost:8000/api`.
 
+## Docker
+
+Build and start the application with Docker:
+
+```bash
+docker-compose up --build
+```
+
+The API will be available at `http://localhost:8000/api`. To run additional commands inside the container, use `docker-compose exec app <command>`.
